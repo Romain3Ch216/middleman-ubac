@@ -1,0 +1,41 @@
+.banner {
+  // background //
+  background: linear-gradient(to right, rgba(168, 63, 68, 0.9), rgba(88, 27, 35, 0.7)), url('../../images/banner.jpg');
+  background-size: cover;
+  background-position: center center;
+  height: 80vh;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.banner-content {
+  //dimensions//
+  height: 60%;
+  width: 80%;
+  // flex config //
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  // banner items //
+  h1 {
+    color: $rose;
+    font-size: 500%;
+  }
+  p {
+    color: $beige;
+    font-size: 250%;
+  }
+}
+
+.btn {
+
+}
+
+.btn-banner {
+  color: $beige;
+  border-color: $beige;
+}
