@@ -7,5 +7,7 @@
 </div>
 
 <div class="jumbotron">
-  <%= render "row" %>
+  <% data.pitch.each do |pitch| %>
+    <%= partial("shared/row", :locals => {title: pitch.title, description: pitch.description, img_url: pitch.img_url}) %>
+  <% end %>
 </div>

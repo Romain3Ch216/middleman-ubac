@@ -1,0 +1,20 @@
+.card {
+  display: flex;
+  height: 400px;
+}
+
+.card-text {
+  flex: 1;
+  h1 {
+    font-size: 20px;
+  }
+  p {
+    font-size: 12px;
+  }
+}
+
+.card-img {
+  flex: 1;
+  background-size: cover;
+  background-position: center center;
+}
