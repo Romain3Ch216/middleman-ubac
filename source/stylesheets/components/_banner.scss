@@ -3,7 +3,7 @@
   background: linear-gradient(to right, rgba(168, 63, 68, 0.9), rgba(88, 27, 35, 0.7)), url('../../images/banner.jpg');
   background-size: cover;
   background-position: center center;
-  height: 80vh;
+  height: 100vh;
 
   display: flex;
   justify-content: space-around;
@@ -38,7 +38,12 @@
 .btn-banner {
   color: $beige;
   border-color: $beige;
+  &:hover {
+    color: $beige;
+  }
 }
+
+
 
 @media (max-width: 400px) {
   .banner-content {

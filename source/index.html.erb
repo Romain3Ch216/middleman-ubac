@@ -6,7 +6,7 @@
   </div>
 </div>
 
-<div class="jumbotron">
+<div class="home-content">
   <% data.pitch.each do |pitch| %>
     <%= partial("shared/row", :locals => {title: pitch.title, description: pitch.description, img_url: pitch.img_url}) %>
   <% end %>

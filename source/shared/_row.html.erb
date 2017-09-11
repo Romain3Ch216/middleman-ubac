@@ -1,12 +1,14 @@
-<div class="card">
-  <div class="card-text">
+<div class="row card">
+  <div class="col-xs-12 col-sm-6 card-text">
     <h1>
       <%= title %>
     </h1>
-    <div class="description">
-      <%= description %>
-    </div>
-    <%= link_to "Commandez votre pièce", '#', class: 'btn btn-primary small' %>
+    <% description.each do |paragraph| %>
+      <p>
+        <%= paragraph%>
+      </p>
+    <% end %>
+    <%= link_to "Commandez votre pièce", '#', class: 'btn btn-card' %>
   </div>
-  <div class="card-img" style="background-image: url(<%= img_url %>)"></div>
+  <div class="col-xs-12 col-sm-6 card-img" style="background-image: url(<%= img_url %>)"></div>
 </div>

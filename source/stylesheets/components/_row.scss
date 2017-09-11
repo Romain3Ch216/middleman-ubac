@@ -1,20 +1,44 @@
 .card {
-  display: flex;
+  // display: flex;
   height: 400px;
 }
 
 .card-text {
-  flex: 1;
+  // flex: 1 1 50%;
+  height:100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 0px 200px 10px 70px;
   h1 {
-    font-size: 20px;
+    font-size: 22px;
   }
   p {
     font-size: 12px;
+    margin-bottom: -5px;
   }
 }
 
 .card-img {
-  flex: 1;
+  // flex: 1 1 50%;
+  height: 100%;
   background-size: cover;
   background-position: center center;
+}
+
+.btn-card {
+  color: $rose;
+  border-color: $rose;
+  font-size: 12px;
+  &:hover {
+    color: $rose;
+  }
+}
+
+@media (max-width: 530px) {
+  .card-text {
+    h1 {
+      color: orange;
+    }
+  }
 }
