@@ -1,11 +1,15 @@
 <div class="banner">
   <div class="banner-content">
-    <h1>Ubac</h1>
     <p>Imprimez en 3D les pièces qui n'existent plus</p>
     <%= link_to 'Commandez votre pièce', '#', class: 'btn btn-banner' %>
   </div>
 </div>
-
+<div class="CCM">
+  <div class="specifications">
+    <%= image_tag 'specifications.svg' %>
+  </div>
+  <p>Nous vous accompagnons pour définir le cahier des charges</p>
+</div>
 <div class="home-content">
   <% data.pitch.each do |pitch| %>
     <%= partial("shared/row", :locals => {title: pitch.title, description: pitch.description, img_url: pitch.img_url}) %>

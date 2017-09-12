@@ -1,16 +1,35 @@
 .navbar {
-  height: 5vh;
-  width: 100%;
-  position: fixed;
-  background-color: rgba(30,30,30,0.2);
+  // height: 5vh;
+  // width: 100%;
+  // position: fixed;
+  // background-color: rgba(30,30,30,0.2);
 
+  height: 16vh;
+  width: 100%;
+  background-color: white;
   display: flex;
-  justify-content: flex-end;
   align-items: center;
+  margin-bottom: 0;
+}
+
+.navbar-title {
+  margin: 0 auto;
+  h1{
+    margin: 0;
+    color: $rose;
+    font-size: 10vh;
+  }
+}
+
+.navbar-links {
+  position: absolute;
+  right: 30px;
+  display: flex;
 }
 
 .navbar-link {
   padding: 10px 30px;
-  color: $beige;
+  color: rgba(5,5,5,1);
   font-size: 12px;
 }
+

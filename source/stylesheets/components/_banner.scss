@@ -2,8 +2,9 @@
   // background //
   background: linear-gradient(to right, rgba(168, 63, 68, 0.9), rgba(88, 27, 35, 0.7)), url('../../images/banner.jpg');
   background-size: cover;
-  background-position: center center;
-  height: 100vh;
+  background-position: center;
+  background-position-y: -100px;
+  height: 60vh;
 
   display: flex;
   justify-content: space-around;
@@ -21,10 +22,6 @@
   align-items: center;
   text-align: center;
   // banner items //
-  h1 {
-    color: $rose;
-    font-size: 500%;
-  }
   p {
     color: $beige;
     font-size: 250%;
@@ -37,9 +34,10 @@
 
 .btn-banner {
   color: $beige;
-  border-color: $beige;
+  border: 2px solid $beige;
   &:hover {
-    color: $beige;
+    color: $rose;
+    border-color: $rose;
   }
 }
 
