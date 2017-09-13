@@ -1,14 +1,16 @@
 .CCM {
-  display: flex;
-  justify-content: space-evenly;
+  // display: flex;
+  // justify-content: space-evenly;
+  padding: 50px;
+  height: 20vh;
 }
 
 .step {
   display: flex;
   flex-direction: column;
-  flex: 1;
   padding: 20px;
   text-align: justify;
+  height: 150px;
   p {
     font-size: 13px;
   }
