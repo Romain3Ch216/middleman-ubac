@@ -43,16 +43,72 @@
 
 
 
+@media (max-width: 660px) {
+  .banner {
+    background-position-y: -50px;
+    height: 32vh;
+  }
+  .banner-content {
+    p {
+      font-size: 35px;
+    }
+  }
+  .btn {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 530px) {
+  .banner-content {
+    p {
+      font-size: 28px;
+    }
+  }
+  .btn {
+    font-size: 16px;
+  }
+}
+
+
 @media (max-width: 400px) {
   .banner-content {
-    h1 {
-      font-size: 50px;
-    }
     p {
       font-size: 25px;
     }
   }
   .btn {
     font-size: 14px;
+  }
+}
+
+@media (max-width: 300px) {
+  .banner {
+    background-position-y: -20px;
+    height: 32vh;
+  }
+  .banner-content {
+    p {
+      font-size: 15px;
+    }
+  }
+  .btn {
+    font-size: 8px;
+    border: solid 1px;
+  }
+}
+
+@media (max-width: 220px) {
+  .banner {
+    background-position-y: -10px;
+    height: 32vh;
+  }
+  .banner-content {
+    p {
+      font-size: 10px;
+    }
+  }
+  .btn {
+    font-size: 5px;
+    border: solid 1px;
   }
 }
