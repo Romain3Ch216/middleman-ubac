@@ -12,10 +12,6 @@
   p {
     font-size: 13px;
   }
-  img {
-    height: 80px;
-    padding-bottom: 30px;
-  }
 }
 
 .CCM-global{
@@ -50,4 +46,8 @@
     font-size: 18px;
     color: $orage;
   }
+}
+
+@media (max-width: 950) {
+
 }
