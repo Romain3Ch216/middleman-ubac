@@ -1,17 +1,60 @@
-<div class="banner">
-  <div class="banner-content">
-    <p>Imprimez en 3D les pièces qui n'existent plus</p>
-    <%= link_to 'Commandez votre pièce', '#', class: 'btn btn-banner' %>
-  </div>
-</div>
-<div class="CCM">
-  <div class="specifications">
-    <%= image_tag 'specifications.svg' %>
-  </div>
-  <p>Nous vous accompagnons pour définir le cahier des charges</p>
-</div>
+<%= partial "components/banner" %>
+<%= partial "components/CCM" %>
 <div class="home-content">
-  <% data.pitch.each do |pitch| %>
-    <%= partial("shared/row", :locals => {title: pitch.title, description: pitch.description, img_url: pitch.img_url}) %>
-  <% end %>
+  <div class="container content">
+    <div class="card">
+      <div class="card-text">
+        <h1>
+          Des pièces automobiles, à l'impession 3D
+        </h1>
+        <p>L'impression 3D est une solution alternative pour la fabrication de pièces automobiles.</p>
+        <p>C'est un procédé compatible avec des petites séries ou même des pièces à l'unité.</p>
+        <p>Il est donc parfait pour les pièces rares ou qui n'existent plus.</p>
+        <p>Idéal pour des pièces d'enjolivement, en plastique ou en résine.</p>
+        <p>Rapide. Economique. Personnalisable.</p>
+        <%= link_to "Commandez votre pièce", '#', class: 'btn btn-card' %>
+      </div>
+      <div class="img-container">
+        <div class="card-img" style="background-image: url('images/impression.jpg')"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container content">
+    <div class="card">
+      <div class="img-container">
+        <div class="card-img" style="background-image: url('images/pommeau3.png')"></div>
+      </div>
+      <div class="card-text">
+        <h1>
+          De la modélisation...
+        </h1>
+        <p>Nos experts vous accompagnent pour définir votre besoin et votre cahier des charges selon vos contraintes esthétiques et mécaniques.​</p>
+        <p>Nous pouvons rapidement réaliser un prototype de la pièce pour confirmer le respect de vos exigences.</p>
+        <p>Nous pouvons de plus adapter les pièces d'origine selon vos contraintes pratiques et économiques.</p>
+        <p>Par téléphone ou par e-mail.</p>
+        <p>A l'aide de photos, de croquis, de plans ou même de votre pièce cassée.</p>
+        <%= link_to "Commandez votre pièce", '#', class: 'btn btn-card' %>
+      </div>
+    </div>
+  </div>
+
+  <div class="container content">
+    <div class="card">
+      <div class="card-text">
+        <h1>
+          A l'impression
+        </h1>
+        <p>Nous sélectionnons les matériaux et les paramètres d'impression optimaux pour que votre pièce soit durable dans le temps et dans son environnement.</p>
+        <p>Nous vous offrons un suivi de la fabrication étape par étape.
+        </p>
+        <p>Si besoin, nous effectuons des tests mécaniques pour valider la résistance de votre pièce.</p>
+        <p>Nos procédés de finition permettront d'obtenir un aspect tel que l'original.</p>
+        <%= link_to "Commandez votre pièce", '#', class: 'btn btn-card' %>
+      </div>
+      <div class="img-container">
+        <div class="card-img" style="background-image: url('images/impression.jpg')"></div>
+      </div>
+    </div>
+  </div>
 </div>

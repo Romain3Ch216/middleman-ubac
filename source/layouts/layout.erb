@@ -6,6 +6,8 @@
     <meta name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Use the title from a page's frontmatter if it has one -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
     <title><%= current_page.data.title %></title>
     <%= stylesheet_link_tag "application" %>
     <%= javascript_include_tag "application" %>
@@ -15,5 +17,7 @@
     <%= partial "shared/navbar" %>
     <%= yield %>
     <%= partial "shared/footer" %>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
   </body>
 </html>
