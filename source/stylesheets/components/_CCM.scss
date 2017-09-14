@@ -42,6 +42,48 @@
   }
 }
 
-@media (max-width: 950) {
-
+@media (max-width: 600px) {
+  .CCM-global {
+    padding: 10px;
+    h1 {
+      font-size: 17px;
+    }
+  }
+  .step-title {
+    h3 {
+      font-size: 14px;
+    }
+  }
+  .step {
+    p {
+      font-size: 10px;
+    }
+  }
 }
+
+@media (max-width: 300px) {
+  .CCM-global {
+    padding: 10px;
+    h1 {
+      font-size: 13px;
+      margin: 3px;
+    }
+  }
+  .step-nb {
+    height: 15px;
+    width: 15px;
+    font-size: 9px;
+  }
+  .step-title {
+    h3 {
+      font-size: 9px;
+      margin: 0;
+    }
+  }
+  .step {
+    p {
+      font-size: 7px;
+    }
+  }
+}
+
