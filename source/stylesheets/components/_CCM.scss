@@ -55,34 +55,37 @@
   }
   .step {
     p {
-      font-size: 10px;
+      font-size: 12px;
     }
   }
 }
 
 @media (max-width: 300px) {
   .CCM-global {
-    padding: 10px;
+    padding: 15px;
     h1 {
       font-size: 13px;
       margin: 3px;
     }
   }
   .step-nb {
-    height: 15px;
-    width: 15px;
-    font-size: 9px;
+    height: 20px;
+    width: 20px;
+    font-size: 12px;
   }
   .step-title {
     h3 {
-      font-size: 9px;
+      font-size: 12px;
       margin: 0;
     }
   }
   .step {
     p {
-      font-size: 7px;
+      font-size: 10px;
     }
+  }
+  .btn-card {
+    font-size: 10px;
   }
 }
 
