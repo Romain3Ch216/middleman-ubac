@@ -30,6 +30,13 @@
   padding: 10px 30px;
   color: rgba(5,5,5,1);
   font-size: 12px;
+  &:hover {
+    color: $rose;
+    text-decoration: none;
+  }
+  &:focus {
+    color: $rose;
+  }
 }
 
 .dropdown {

@@ -1,0 +1,18 @@
+.recap{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 30px 50px;
+  margin: 5px 0;
+  padding-bottom: 6àpx;
+  h1 {
+    font-size: 25px;
+    border-bottom: solid 1px rgba(5,5,5,0.2);
+  }
+}
+
+#step-1 {
+  h3 {
+    color: $rose;
+  }
+}

@@ -3,9 +3,10 @@
     <h1>Ubac</h1>
   </div>
   <div class="navbar-links">
-    <div class="navbar-link">Acceuil</div>
-    <div class="navbar-link">Commande</div>
-    <div class="navbar-link">Blog</div>
+
+    <%= link_to 'Acceuil', 'index.html', class: "navbar-link" %>
+    <%= link_to 'Commande', 'commande.html', class: "navbar-link" %>
+    <%= link_to 'Blog', '#', class: "navbar-link hidden" %>
 
     <div class="dropdown">
       <i id="menu" class="fa fa-bars dropdown-toggle hidden" data-toggle="dropdown" aria-hidden="true"></i>

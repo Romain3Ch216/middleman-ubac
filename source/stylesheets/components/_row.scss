@@ -40,7 +40,8 @@
   border-color: $rose;
   font-size: 12px;
   &:hover {
-    color: $rose;
+    color: white;
+    background-color: $rose;
   }
 }
 
