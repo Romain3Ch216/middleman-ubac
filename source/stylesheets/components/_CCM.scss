@@ -4,7 +4,7 @@
   justify-content: flex-start;
   padding: 30px 50px;
   margin: 20px 0;
-  padding-bottom: 6àpx;
+  padding-bottom: 6px;
   background-color: rgb(250,250,250);
   h1 {
     font-size: 25px;
@@ -12,7 +12,30 @@
   }
 }
 
+.big-box {
+  display: flex;
+  justify-content: space-around;
+}
+
+.box {
+  display: flex;
+  justify-content: space-around;
+}
+
+@media (max-width: 1050px) {
+  .big-box {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 580px) {
+  .box {
+    flex-direction: column;
+  }
+}
+
 .step {
+  flex: 1 1 50%;
   display: flex;
   flex-direction: column;
   padding: 20px;
