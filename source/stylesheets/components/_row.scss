@@ -1,9 +1,6 @@
 .card {
   display: flex;
-  height: 400px;
-  align-items: center;
-  position: relative;
-}
+  align-items: center;}
 
 .home-content {
   display: flex;
@@ -13,7 +10,6 @@
 
 .card-text {
   flex: 1 1 50%;
-  height:100%;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -23,7 +19,6 @@
   }
   p {
     font-size: 12px;
-    margin-bottom: -5px;
   }
 }
 
@@ -50,7 +45,6 @@
 }
 
 .content {
-  margin-bottom: 40px;
   background-color: white;
   p {
     color: rgba(5,5,5,1);
@@ -105,10 +99,10 @@
 }
 
 @media (max-width: 400px) {
-  .home-content {
-    position: relative;
-    top: -40px;
-  }
+  // .home-content {
+  //   position: relative;
+  //   top: -40px;
+  // }
   .img-container {
     margin-bottom: 20px;
     padding: 5px 0;
