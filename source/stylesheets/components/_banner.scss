@@ -41,7 +41,11 @@
   }
 }
 
-
+@media (max-width: 900px) {
+  .banner {
+    background-position-y: -50px;
+  }
+}
 
 @media (max-width: 660px) {
   .banner {
@@ -83,7 +87,7 @@
 
 @media (max-width: 300px) {
   .banner {
-    background-position-y: 0px;
+    background-position-y: 10px;
     height: 32vh;
   }
   .banner-content {
@@ -99,7 +103,7 @@
 
 @media (max-width: 220px) {
   .banner {
-    background-position-y: 0px;
+    background-position-y: 15px;
     height: 32vh;
   }
   .banner-content {

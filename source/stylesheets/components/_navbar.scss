@@ -23,6 +23,7 @@
 .navbar-links {
   position: absolute;
   right: 30px;
+  align-self: center;
   display: flex;
 }
 
@@ -43,8 +44,4 @@
   a {
     font-size: 12px;
   }
-}
-
-@media (max-width: 900px) {
-
 }
