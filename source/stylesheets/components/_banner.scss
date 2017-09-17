@@ -43,13 +43,13 @@
 
 @media (max-width: 900px) {
   .banner {
-    background-position-y: -10px;
+    background-position-y: 10px;
   }
 }
 
 @media (max-width: 660px) {
   .banner {
-    background-position-y: 0px;
+    background-position-y:  5px;
     height: 35vh;
   }
   .banner-content {
