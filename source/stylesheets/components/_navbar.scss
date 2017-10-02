@@ -18,6 +18,9 @@
     color: $rose;
     font-size: 10vh;
   }
+  a:hover {
+    text-decoration: none;
+  }
 }
 
 .navbar-links {
@@ -30,7 +33,7 @@
 .navbar-link {
   padding: 10px 30px;
   color: rgba(5,5,5,1);
-  font-size: 12px;
+  font-size: 14px;
   &:hover {
     color: $rose;
     text-decoration: none;
