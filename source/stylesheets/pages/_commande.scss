@@ -1,0 +1,10 @@
+#fade {
+  font-size: 20px;
+  text-align: center;
+}
+
+@media (max-width: 500px) {
+  #fade {
+    font-size: 12px;
+  }
+}
