@@ -1,0 +1,37 @@
+<div class="container">
+  <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+    <h1>Nos réalisations</h1>
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+      <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <div class="carousel-image">
+          <img src="images/centre_volant.JPG" alt="">
+        </div>
+        <div class="legende">
+          <p>Centre de volant - Citroën Traction</p>
+        </div>
+      </div>
+      <div class="item">
+        <div class="carousel-image">
+          <img src="images/pignons.jpg" alt="">
+        </div>
+        <div class="legende">
+          <p>Jeu de pignons - Toit ouvrant - Renault 16 / 20 / 30</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  $('.carousel').carousel({
+    interval: 2000
+  })
+</script>
+
