@@ -1,6 +1,10 @@
 .carousel-image {
   display: flex;
   justify-content: space-around;
+  height: 400px;
+  img {
+    height: 100%;
+  }
 }
 
 .carousel h1 {
@@ -9,6 +13,31 @@
   border-bottom: solid 1px rgba(5,5,5,0.1);
 }
 
-.carousel {
-  margin-bottom: 30px;
+.legende {
+  text-align: center;
+  font-size: 12px;
+}
+
+@media (max-width: 600px) {
+  .carousel h1 {
+    font-size: 17px;
+  }
+  .carousel-image {
+    height: 220px;
+  }
+  .legende {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 300px) {
+  .carousel h1 {
+    font-size: 13px;
+  }
+  .carousel-image {
+    height: 160px;
+  }
+  .legende {
+    font-size: 8px;
+  }
 }
