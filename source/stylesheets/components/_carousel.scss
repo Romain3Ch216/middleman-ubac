@@ -1,0 +1,14 @@
+.carousel-image {
+  display: flex;
+  justify-content: space-around;
+}
+
+.carousel h1 {
+  font-size: 25px;
+  color: $rose;
+  border-bottom: solid 1px rgba(5,5,5,0.1);
+}
+
+.carousel {
+  margin-bottom: 30px;
+}
