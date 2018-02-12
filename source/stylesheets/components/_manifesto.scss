@@ -1,0 +1,14 @@
+.manifesto {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  flex-direction: column;
+  h1 {
+    font-size: 25px;
+    font-weight: bold;
+    color: $rose;
+  }
+  p {
+    font-size: 14px;
+  }
+}
