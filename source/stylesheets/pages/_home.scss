@@ -16,3 +16,13 @@
   }
 }
 
+.hypertext {
+  font-weight: bold;
+  text-decoration: none;
+  color: rgb(5,5,5);
+  &:hover {
+    text-decoration: none;
+    color: rgb(5,5,5);
+  }
+}
+
