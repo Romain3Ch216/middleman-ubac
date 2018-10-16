@@ -1,0 +1,32 @@
+.article {
+  margin: 60px;
+  padding: 5px;
+  border: 1px solid rgb(230,230,230);
+  box-shadow: rgb(240,240,240) -0.5px -0.5px;
+  border-radius: 2%;
+  // display: flex;
+  // justify-content: space-around;
+  // flex-direction: column;
+  h1 {
+    color: $rose;
+    font-size: 18px;
+    margin: 5px;
+  }
+  p {
+    font-size: 13px;
+    margin: 5px;
+  }
+}
+
+.img-article {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  img {
+    height: 100%;
+    width: 100%;
+  }
+}
+
+.article-img{
+}
