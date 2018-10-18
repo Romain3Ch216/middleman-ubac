@@ -15,7 +15,9 @@
 }
 
 .navbar-2 {
-  background-color: rgb(200,200,200);
+  background-color: rgb(240,240,240);
+  top: 0px;
+  box-shadow: rgb(230,230,230) -0.5px -0.5px;
 }
 
 .navbar-title {
@@ -37,12 +39,15 @@
 .navbar-link {
   padding: 10px 30px;
   color: rgba(250,250,250,1);
-  font-size: 1.5vh;
+  font-size: 1.8vh;
   &:hover {
     color: $rose;
     text-decoration: none;
   }
   &:focus {
+    color: $rose;
+  }
+  &:active {
     color: $rose;
   }
 }

@@ -1,0 +1,32 @@
+.realisations {
+  margin: 15vh 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  h1 {
+    font-size: 25px;
+    font-weight: bold;
+    max-width: 70%;
+  }
+  h2 {
+    font-size: 18px;
+    font-style: italic;
+  }
+  p {
+    font-size: 14px;
+    max-width: 85%;
+    text-align: justify;
+  }
+}
+
+.feedback {
+  text-align: right;
+  p {
+    text-align: right !important;
+    max-width: 100%;
+  }
+}
+
+.article {
+  padding-top: 60px;
+}
