@@ -15,6 +15,7 @@
   p {
     font-size: 13px;
     margin: 5px;
+    color: rgb(5,5,5);
   }
 }
 
@@ -29,4 +30,10 @@
 }
 
 .article-img{
+}
+
+.link-article {
+  &:hover{
+    text-decoration: none;
+  }
 }
