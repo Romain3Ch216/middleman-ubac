@@ -30,3 +30,17 @@
 .article {
   padding-top: 60px;
 }
+
+@media (max-width: 900px) {
+  .realisations {
+    h1 {
+      font-size: 14px;
+    }
+    h2 {
+      font-size: 12px;
+    }
+    p {
+      font-size: 10px;
+    }
+  }
+}
