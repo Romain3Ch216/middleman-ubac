@@ -37,11 +37,18 @@
 
 @media (max-width: 900px) {
   #home {
+    margin: 15px
     h1 {
       font-size: 14px;
     }
     p {
       font-size: 10px;
     }
+  }
+}
+
+@media (max-width: 600px) {
+  #home {
+    margin: 5px;
   }
 }
