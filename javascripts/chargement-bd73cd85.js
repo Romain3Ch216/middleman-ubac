@@ -1,0 +1,1 @@
+$(document).ready(function(){setTimeout(function(){var t=document.getElementById("fade");t.style.opacity=1;var e=setInterval(function(){var a=t.style.opacity;0==a?clearInterval(e):t.style.opacity=a-.01},100)},1)});
