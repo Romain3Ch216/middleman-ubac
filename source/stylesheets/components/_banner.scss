@@ -1,8 +1,9 @@
 .banner {
   // background //
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(255, 255, 255, 0)), url('../../images/car_city.jpeg');
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(100, 100, 100, 0.1)), url('../../images/car_city.jpeg');
   background-size: cover;
   background-position: center;
+  linear-gradient-position-y: -160px;
   background-position-y: -160px;
 
   display: flex;
