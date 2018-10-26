@@ -1,5 +1,5 @@
 #home {
-  margin: 30px 100px;
+  margin: 30px 0px;
   h1 {
     font-size: 25px;
     font-weight: bold;
@@ -32,6 +32,38 @@
     max-width: 85%;
     text-align: justify;
     color: rgb(5,5,5);
+  }
+}
+
+#france {
+  img {
+    height: 150px;
+    width: auto;
+  }
+}
+
+#numerisation {
+  img {
+    height: 200px;
+    width: auto;
+  }
+}
+
+.grey-banner {
+  background-color: rgb(240,240,240);
+}
+
+.btn-home {
+  background-color: transparent;
+  color: $rose;
+  border: 2px solid $rose;
+  border-radius: 3px;
+  font-weight: bold;
+  &:hover {
+    background-color: $rose;
+    opacity: 0.7;
+    color: rgb(5,5,5);
+    border: 1px solid $rose;
   }
 }
 
