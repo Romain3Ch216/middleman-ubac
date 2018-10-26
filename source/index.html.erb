@@ -2,7 +2,7 @@
 
 <div class="container">
   <div class="row" id="home">
-    <div class="col-xs-12 col-md-6">
+    <div class="col-xs-12 col-md-5 col-md-offset-1">
       <h1>Un service de fabrication<br>de pièces de rechange</h1>
       <p>Au service des clubs, des garages et des particuliers, nous fabriquons vos pièces décoratives.</p>
       <p>Pour toutes marques et pour tous modèles.<br>
@@ -12,7 +12,7 @@
       Moulage, usinage, fabrication additive.</p>
       </p>
     </div>
-    <div class="col-xs-12 col-md-6">
+    <div class="col-xs-12 col-md-5">
       <div class="img-container">
         <img src="images/banner_reduce.jpg" alt="voiture de collection" class="card-img">
       </div>
@@ -34,16 +34,17 @@
   </div>
 </div>
 
-<div class="jumbotron" id="home" class="grey-banner">
+<div class="jumbotron grey-banner" id="home">
   <div class="row">
     <div class="col-xs-12 col-md-4 col-md-offset-2">
       <h1>Numérisons votre voiture de collection</h1>
-      <p>La numérisation des pièces de rechange, un enjeu majeur de la préservation du patrimoine automobile.</p>
-      <%= link_to 'Tous nos projets', 'projets.html', class: 'btn btn-home' %>
+      <p>La numérisation des pièces de rechange est un enjeu majeur de la préservation du patrimoine automobile.</p>
+      <p>Afin de palier à la disparition de certains plans, les outils de mesure 3D sont idéals pour garantir la pérennité de vos pièces de rechange.</p>
+      <%= link_to 'Voir tous nos projets', 'projets.html', class: 'btn btn-home' %>
     </div>
     <div class="col-xs-12 col-md-4">
       <div class="img-container" id="numerisation">
-        <img src="images/enjo_matra.JPG" alt="voiture de collection" class="card-img">
+        <img src="images/macro_scan.JPG" alt="voiture de collection" class="card-img">
       </div>
     </div>
   </div>
@@ -54,16 +55,26 @@
   </div>
 </div>
 
-
-<!-- <div class="jumbotron">
+<div class="container" id="home">
+  <div class="center-title">
+    <h1>A la recherche de la pièce manquante</h1>
+  </div>
   <div class="row">
-    <div class="col-xs-12 col-md-6">
-      <div id="manifesto">
-        <p>Matra, SOVAM, Facel Vega... Citroën, Renault, Peugeot... Qu'il s'agisse d'aventures automobiles aussi fulgurantes qu'éphémères ou de grandes marques françaises,  </p>
+    <div class="col-xs-12 col-md-4 col-md-offset-2" style="padding: 40px;">
+      <p>Si chaque voiture est un puzzle, alors chaque collectionneur est un chasseur de trésor.</p>
+      <p>Obtenez la pièce introuvable qui manque pour fignoler votre voiture.</p>
+      <p>Un centre de volant, un logo, un clignotant, un cabochon de feu arrière ?</p>
+      <% link_to 'contact.html', class: 'home-link' do %>
+        <p>Demandez un devis</p>
+      <% end %>
+    </div>
+    <div class="col-xs-12 col-md-4">
+      <div class="img-container" id="numerisation">
+        <img src="images/cabochons_moules.JPG" alt="voiture de collection" class="card-img">
       </div>
     </div>
-    <div class="col-xs-12 col-md-6">
-    </div>
+  </div>
+  <div class="center-title">
+    <%= link_to 'Voir tous nos projets', 'projets.html', class: 'btn btn-home' %>
   </div>
 </div>
- -->

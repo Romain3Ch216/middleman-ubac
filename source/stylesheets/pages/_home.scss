@@ -50,7 +50,11 @@
 }
 
 .grey-banner {
-  background-color: rgb(240,240,240);
+  background-color: rgb(245,245,245);
+  p {
+    font-weight: bold;
+    font-size: 12px;
+  }
 }
 
 .btn-home {
@@ -59,6 +63,7 @@
   border: 2px solid $rose;
   border-radius: 3px;
   font-weight: bold;
+  font-size: 13px;
   &:hover {
     background-color: $rose;
     opacity: 0.7;
@@ -67,9 +72,27 @@
   }
 }
 
+.center-title {
+  text-align: center;
+  h1 {
+    max-width: 100% !important;
+  }
+}
+
+.home-link {
+  text-decoration: none;
+  color: rgba(24,70,186,0.9);
+  font-weight: bold;
+  &:hover {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgba(24,70,186,1);
+  }
+}
+
 @media (max-width: 900px) {
   #home {
-    margin: 15px
+    margin: 15px;
     h1 {
       font-size: 14px;
     }
