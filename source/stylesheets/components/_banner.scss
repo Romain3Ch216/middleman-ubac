@@ -15,6 +15,16 @@
   width: 100%;
 }
 
+.banner-blog {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url('../../images/blog.jpeg');
+  height: 50vh;
+  h1 {
+    color: $rose;
+    font-size: 70px;
+    font-weight: bold;
+  }
+}
+
 .banner-content {
   //dimensions//
   height: 70%;
